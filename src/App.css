@@ -1,7 +1,8 @@
 .cell {
   width: 40px;
   height: 40px;
-  border: 1px solid black;
+  border: 1px solid rgb(204, 231, 243);
+  background-color: rgb(204, 231, 243);
   margin: 5px;
 }
 
@@ -10,11 +11,13 @@
 }
 
 .food {
-  background-color: yellow;
+  background-color: rgb(206, 33, 90);
+  border-radius: 30px;
 }
 
 .snake {
-  background-color: green;
+  background-color: rgb(34, 233, 110);
+  border-radius: 30px;
 }
 
 .container {
@@ -24,6 +27,9 @@
   margin: 100px;
   display: flex;
   flex-direction: row;
+}
+.game-container{
+  background-color: rgb(204, 231, 243);
 }
 
 .arrow {
